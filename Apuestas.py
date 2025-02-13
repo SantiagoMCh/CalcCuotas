@@ -16,7 +16,7 @@ def calcular_cuotas(cuota_evento):
 # Ejemplo de uso
 while 1:  
   cuota_original = input("Cuota de que el evento ocurra (quit para salir): ")
-  if cuota_original == "quit": 
+  if cuota_original == "quit" or cuota_original == "Quit": 
      break
   try:
      cuota_original = float(cuota_original)
